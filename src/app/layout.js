@@ -1,4 +1,7 @@
+import Footer from './footer'
 import './globals.css'
+import Header from './header'
+import Navbar from './navbar'
 
 export const metadata = {
   title: 'Digimatic',
@@ -8,7 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=''>{children}</body>
+      <body className=''>
+        <Header />
+        {children}
+        <Footer />
+        <Navbar />
+      </body>
     </html>
   )
 }
