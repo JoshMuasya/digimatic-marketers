@@ -21,6 +21,8 @@ module.exports = {
       colors: {
         'midnight-purple': '#290B36',
         'light-blue': '#6BA4D9',
+        'back-blue': '#2C4359',
+        'back-light-blue': '#E3F9FC'
       },
 
       fontSize: {
